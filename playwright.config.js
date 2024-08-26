@@ -11,6 +11,7 @@ module.exports = defineConfig({
     reporter: "html",
     use: {
         trace: "on-first-retry",
+        baseURL: "http://localhost:5173",
     },
     projects: [
         {
