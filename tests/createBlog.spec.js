@@ -1,5 +1,3 @@
-// createBlog.spec.js
-
 const { test, expect } = require("@playwright/test");
 
 test.describe("When logged in", () => {
